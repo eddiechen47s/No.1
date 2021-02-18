@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("n1")
         setupData()
         
         tableView.delegate = self
