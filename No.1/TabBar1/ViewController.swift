@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("n1")
+        print("n2")
         setupData()
         
         tableView.delegate = self
